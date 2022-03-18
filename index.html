@@ -18,48 +18,53 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light pt-3 pb-4">
-      <div class="container align-items-center">
-        <!-- navbar brand  -->
-        <a class="navbar-brand" href="#homepage">
-          <img src="asset\logo.svg" alt="logo" />
-        </a>
-        <!-- toggle button for mobile nav -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#main-nav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <section>
+      <nav class="navbar navbar-expand-md pt-3 pb-4">
+        <div class="container align-items-center">
+          <!-- navbar brand  -->
+          <a class="navbar-brand" href="#homepage">
+            <img src="asset\logo.svg" alt="logo" />
+          </a>
+          <!-- toggle button for mobile nav -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-nav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!-- navbar links -->
-        <div
-          class="collapse navbar-collapse justify-content-start align-center"
-          id="main-nav"
-        >
-          <ul class="navbar-nav ps-4">
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
-            <li class="nav-item ps-4">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item ps-4">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+          <!-- navbar links -->
+          <div
+            class="collapse navbar-collapse justify-content-start align-center text-dark"
+            id="main-nav"
+          >
+            <ul class="navbar-nav ps-4 text-white">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item ps-4">
+                <a class="nav-link text-dark" href="#about">About</a>
+              </li>
+              <li class="nav-item ps-4">
+                <a class="nav-link text-dark" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <a
+            href="#schedule"
+            class="rounded-pill p-3 text-white"
+            style="background-color: #da6d97"
+            >Scheudle a Demo</a
+          >
         </div>
-
-        <a href="#schedule" class="rounded-pill bg-danger p-3 text-white"
-          >Scheudle a Demo</a
-        >
-      </div>
-    </nav>
+      </nav>
+    </section>
 
     <!-- home page -->
-    <section id="home-page" class="bg-primary">
+    <section id="home-page" class="">
       <div class="container-lg">
         <div class="row g-4 justify-content-center align-items-center">
           <div class="col text-center text-md-start">
@@ -73,7 +78,10 @@
                 class="form-control rounded-pill"
                 placeholder="Enter email address"
               />
-              <a href="#schedule" class="rounded-pill bg-danger p-3 text-white"
+              <a
+                href="#schedule"
+                class="rounded-pill p-3 text-white"
+                style="background-color: #da6d97"
                 >Scheudle a Demo</a
               >
             </div>
@@ -146,7 +154,7 @@
     </section>
 
     <!-- pricing -->
-    <section id="pricing" class="bg-light">
+    <section id="pricing" class="">
       <div class="container-lg">
         <div class="row g-4 justify-content-center align-items-center">
           <div class="col text-center d-none d-md-block">
@@ -169,7 +177,7 @@
     </section>
 
     <!-- reviews list -->
-    <section id="" class="bg-light">
+    <section id="" class="">
       <div class="container-lg">
         <div class="row g-4 justify-content-center align-items-center">
           <div class="col text-center text-md-start">
@@ -198,7 +206,7 @@
     </section>
 
     <!-- contact form -->
-    <section id="story" class="bg-light">
+    <section id="story" class="">
       <div class="container-lg">
         <div class="row g-4 text-center pt-5">
           <div class="col-lg-4 col-md-6 icon-box">
@@ -239,7 +247,7 @@
     </section>
 
     <!-- register -->
-    <section id="register" class="bg-light">
+    <section id="register" class="">
       <div class="container-lg">
         <div class="row g-4 justify-content-center align-items-center py-5">
           <div class="col text-center text-md-start pt-5">
@@ -247,13 +255,16 @@
           </div>
           <div class="col text-center d-none d-md-block pt-5">
             <!-- tooltip -->
-            <div class="input-group mb-5">
+            <div class="input-group buttonIn mb-5">
               <input
                 type="text"
                 class="form-control rounded-pill"
                 placeholder="Enter email address"
               />
-              <a href="#schedule" class="rounded-pill bg-danger p-3 text-white"
+              <a
+                href="#schedule"
+                class="rounded-pill p-3 text-white"
+                style="background-color: #da6d97"
                 >Scheudle a Demo</a
               >
             </div>

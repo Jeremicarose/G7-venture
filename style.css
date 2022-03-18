@@ -1,11 +1,13 @@
-a, p{
-    text-decoration: none;
-    font-family: "public sans";
+a,
+p {
+  text-decoration: none;
+  font-family: "public sans";
 }
-h1, h2{
-    font-family: "dm serif text";
-    
+h1,
+h2 {
+  font-family: "dm serif text";
 }
-#customS {
-    border-radius: 0 0em 0em 1 !important;
+
+section {
+  background-color: #eef3f9;
 }
